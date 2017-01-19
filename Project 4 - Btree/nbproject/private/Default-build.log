@@ -1,0 +1,16 @@
+cd src/obj/exceptions;\
+g++ -std=c++0x -Wall -g -c -I../../ ../../exceptions/*.cpp;\
+ar cq ../../lib/exceptions.a *.o
+cd src/obj/;\
+g++ -std=c++0x -Wall -g -I.. -c ../buffer.cpp ../file.cpp ../page.cpp ../bufHashTbl.cpp;\
+ar cq ../lib/bufmgr.a buffer.o file.o page.o bufHashTbl.o
+cd src/obj/;\
+g++ -std=c++0x -Wall -g -c -I../ ../filescan.cpp
+cd src/obj/;\
+g++ -std=c++0x -Wall -g -c -I../ ../main.cpp
+../main.cpp: In function 'void createRelationRandom()':
+../main.cpp:312:18: error: 'random' was not declared in this scope
+     pos = random() % (relationSize-i);
+                  ^
+Makefile:38: recipe for target 'src/obj/main.o' failed
+make: *** [src/obj/main.o] Error 1

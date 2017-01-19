@@ -1,0 +1,3 @@
+Author: Bill Chang
+
+I've added test case in main.cpp and modified btree.h. The main B+ tree implementation is in btree.cpp. In addition, design_report.docx is located at the rootfile.

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="src">
+        <df name="exceptions">
+          <in>bad_buffer_exception.cpp</in>
+          <in>bad_index_info_exception.cpp</in>
+          <in>bad_opcodes_exception.cpp</in>
+          <in>bad_scan_param_exception.cpp</in>
+          <in>bad_scanrange_exception.cpp</in>
+          <in>badgerdb_exception.cpp</in>
+          <in>buffer_exceeded_exception.cpp</in>
+          <in>end_of_file_exception.cpp</in>
+          <in>file_exists_exception.cpp</in>
+          <in>file_not_found_exception.cpp</in>
+          <in>file_open_exception.cpp</in>
+          <in>hash_already_present_exception.cpp</in>
+          <in>hash_not_found_exception.cpp</in>
+          <in>hash_table_exception.cpp</in>
+          <in>index_scan_completed_exception.cpp</in>
+          <in>insufficient_space_exception.cpp</in>
+          <in>invalid_page_exception.cpp</in>
+          <in>invalid_record_exception.cpp</in>
+          <in>invalid_slot_exception.cpp</in>
+          <in>no_such_key_found_exception.cpp</in>
+          <in>page_not_pinned_exception.cpp</in>
+          <in>page_pinned_exception.cpp</in>
+          <in>scan_not_initialized_exception.cpp</in>
+          <in>slot_in_use_exception.cpp</in>
+        </df>
+        <in>btree.cpp</in>
+        <in>bufHashTbl.cpp</in>
+        <in>buffer.cpp</in>
+        <in>file.cpp</in>
+        <in>filescan.cpp</in>
+        <in>main.cpp</in>
+        <in>page.cpp</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=c++0x"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>nbproject\private\tools\localhost\Cygwin\g++.exe</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>src</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <folder path="0/src/exceptions">
+        <ccTool>
+          <incDir>
+            <pElem>src/obj/exceptions</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="src/btree.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/obj</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/bufHashTbl.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/obj</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/buffer.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/obj</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/exceptions/bad_buffer_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/bad_index_info_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/bad_opcodes_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/bad_scan_param_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/bad_scanrange_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/badgerdb_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/buffer_exceeded_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/end_of_file_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/file_exists_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/file_not_found_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/file_open_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/hash_already_present_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/hash_not_found_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/hash_table_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/index_scan_completed_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/insufficient_space_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/invalid_page_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/invalid_record_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/invalid_slot_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/no_such_key_found_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/page_not_pinned_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/page_pinned_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/scan_not_initialized_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/exceptions/slot_in_use_exception.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/file.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/obj</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/filescan.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/obj</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/obj</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/page.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/obj</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
